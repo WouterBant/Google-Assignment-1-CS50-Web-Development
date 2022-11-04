@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+.options {
+    margin-left: auto;
+    margin-right: 0;
+    float: right
+}
+
+.options > a {
+    text-decoration: none;
+}
+
+.options > a:hover {
+    text-decoration: underline;
+}
+
+div a{
+    color: white;
+    text-align: right;
+}
+
+.bar {
+    width: 40%;
+    height: 10%;
+    margin: 2%;
+    padding: 1%;
+    float: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+}
+
+:hover::placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+.bar:hover {
+    background-color: grey;
+    color: white;
+
+}
+
+.submit {
+    width: 10%;
+    padding: 0.5%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background-color: grey;
+    color: white;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#cent {
+    display: table;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 75%;
+    width: 100%;
+}
+
+.adv {
+    padding: 3px;
+    margin: 5px;
+    color: white;
+}
+
+.ad {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    resize: vertical;
+}
+
+.ad:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+#ss {
+    margin-left: 2%;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-15 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+
+.col-35 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    color: white;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Geavanceerd {
+    background-color: rgb(97, 133, 166);
+    color: white;
+    margin: 15px;
+    padding: 8px 8px;
+    border: none;
+    float: left;
+    margin-left: 40%;
+    width: 10%;
+    text-align: center;
+}
+
+.Geavanceerd:hover {
+    background-color: rgb(161, 172, 183);
+}
